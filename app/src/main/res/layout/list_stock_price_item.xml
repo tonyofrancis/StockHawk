@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/light_gray"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/stock_date_text_view"
+            android:paddingBottom="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/textColorSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="July 12, 2016"/>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">\
+
+            <TextView
+                android:layout_weight=".5"
+                android:id="@+id/stock_open_text_view"
+                android:layout_width="0dp"
+                android:textColor="@color/textColorSecondary"
+                android:layout_height="wrap_content"
+                tools:text="Open: 2.42"/>
+
+            <TextView
+                android:layout_weight=".5"
+                android:id="@+id/stock_close_text_view"
+                android:layout_width="0dp"
+                android:textColor="@color/textColorSecondary"
+                android:layout_height="wrap_content"
+                tools:text="Close: 2.42"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight=".5"
+                android:id="@+id/stock_high_text_view"
+                android:layout_width="0dp"
+                android:textColor="@color/textColorSecondary"
+                android:layout_height="wrap_content"
+                tools:text="High: 2.42"/>
+
+            <TextView
+                android:layout_weight=".5"
+                android:id="@+id/stock_low_text_view"
+                android:layout_width="0dp"
+                android:textColor="@color/textColorSecondary"
+                android:layout_height="wrap_content"
+                tools:text="Low: 2.42"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

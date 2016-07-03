@@ -1,12 +1,16 @@
 <resources>
 
   <!-- Base application theme. -->
-  <style name="AppTheme"
-      parent="Theme.AppCompat">
-      <item name="colorPrimary">@color/material_blue_500</item>
-      <item name="colorPrimaryDark">@color/material_blue_700</item>
+  <style name="AppTheme" parent="Theme.AppCompat">
+      <item name="colorPrimary">@color/colorPrimary</item>
+      <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
     <!-- Customize your theme here. -->
   </style>
+
+    <style name="AppThemeNoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
 
   <style name="PercentChangeTextStyle">
     <item name="android:textSize">20sp</item>
@@ -16,6 +20,7 @@
   <style name="BidPriceTextStyle">
     <item name="android:textSize">20sp</item>
   </style>
+
   <style name="StockSymbolTextStyle">
     <item name="android:textSize">25sp</item>
     <item name="android:textAllCaps">true</item>
