@@ -1,5 +1,5 @@
 <resources>
-  <string name="app_name" translatable="false">Stock Hawk</string>
+  <string name="app_name" translatable="false">Stocks WatchList</string>
   <string name="action_change_units" translatable="true">Change Units</string>
   <string name="symbol_search" translatable="true">Symbol Search</string>
   <string name="no_stock_item" translatable="true">No stocks are being monitored. Tap the + button to add stocks to your watch list.</string>
